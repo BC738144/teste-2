@@ -1,0 +1,161 @@
+body{
+	font-family: "Crimson Text","Times New Roman" serif;
+	background-color:#F2FFFC;
+	font-size: 120%px;
+	line-height: 1.5;
+	
+}
+.titulo-principal { 
+	font-size: 60px;
+	background-color: #851744;
+	color: #FFF;
+	text-align: center;
+	font-family: "Open Sans Condensed",,Sans-serif;
+	border-bottom: 10px solid black;
+	padding:25px;
+	text-transform: uppercase;
+	
+
+}
+
+p {
+	text-align: justify;
+	margin:20px 0;
+}
+blockquote {
+	background-color:#D9E5E3;
+	border:10px solid #C2CCCA;
+	width: 250px;
+	box-sizing: border-box;
+	margin:20px 40px;
+
+}
+.navegaçao-site {
+	text-align: center;
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+
+}
+.rodape-pagina  {
+	background-color:#000;
+	color:#F2FFFC;
+	
+}
+
+main a{
+	color:#851944;
+}
+
+.navegaçao-site a {
+	color: inherit;
+	font-family:"open Sans Condensed",Sans-serif;
+}
+blockquote , .navegaçao-site, .rodape-pagina{
+	padding: 20px;
+}
+
+.container{
+	width: 720px;
+	margin:auto;
+	padding :40px 0;
+	padding-bottom: 80px;
+
+}
+.navegaçao-site h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+strong{
+	font-weight: bold;
+}
+
+em{
+	font-style:italic;
+}
+
+.subtitulo-texto {
+	font-size: 30px;
+	font-family: "Open Sans Condensed ","Arial"Sans-serif;
+	clear: both;
+}
+.icones-redes-sociais li {
+	display:inline-block;
+}
+
+.artigo {
+	padding-bottom: 30px
+	border-bottom:1px solid #ccc;
+	margin-bottom: 20px;
+}
+.leia-mais{
+	padding:8px;
+	margin:16px;
+	display:block;
+	font-size:24px;
+	text-align:center;
+	background-color:#E6E7E8;
+}
+nav a {
+	text-transform: lowercase;
+}
+.icones-redes-sociais a{
+	
+	width:40px; 
+	height:40px;
+    display: inline-block;
+    text-indent: 1000px;
+}
+.github {
+	background-image: url(../img/github.png);
+}
+.twitter {
+	background-image: url(../img/twitter.png);
+}
+.linkedin {
+	background-image: url(../img/linkedin.png);
+}
+.fiat {
+	float:right;
+}
+.petrobras {
+	float:left;
+}
+
+
+aside , img  {
+	float:right;
+	box-sizing: border-box;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+	
+	
+}
+
+aside {
+	clear:right; width: 15%;
+	position: relative;
+	top:310px;
+
+	
+}
+
+main { 
+    float:left;
+    width: 85%;
+    
+
+ }
+
+ footer {
+ 	clear:both;
+ 	position: fixed;
+ 	bottom: 0;
+ 	width: 100%;
+ }
+
+ img {
+ 	position: absolute;
+ 	top:0px;
+ 	right: 0px;
+ }
